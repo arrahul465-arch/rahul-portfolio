@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="your-favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "9xp7UaCYdV8lXSkE2",
+      });
+   })();
+</script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+      <h1 class="name1">Rahul A R</h1>
+      <nav class="nav2">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <span class="home1">
+    <!-- <div class="img1"> -->
+        <img src="rahulportphoto.png" alt="" class="face">
+        </span>
+    <!-- </div> -->
+    <div class="abouthome">
+        <span class="ha">
+        <h2 class="ar">Hello</h2> <h2 class="arr">I'm Rahul A R</h2>
+        <h2 class="ar1">Data Analyst</h2>
+        </span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <span class="about1">
+      <img src="imagerahul.jpg" alt="" class="img2">
+      </span>
+      <div class="am">
+    <h1>About Me</h1><br>
+  <p>Hi, I'm Rahul. A passionate Analytical and detail-oriented BSc Information Technology student with a solid foundation in programming, data analysis, and business intelligence. Possessing a keen interest in data-driven decision-making and problem-solving, seeking an entry-level position as a Data Analyst or Business Analyst to contribute analytical skills and academic knowledge to drive business growth.</p>
+  </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="icon1">
+    <h1 class="ms"> My Skills</h1>
+    <div class="icons">
+      <span class="html1">
+                <i class="fa-brands fa-html5"></i>
+                <h1 class="ht">HTML</h1>
+                </span>
+                <span class="css">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h1 class="cs">CSS</h1>
+                </span>
+                <span class="javascript">
+                <i class="fa-brands fa-js"></i>
+                <h1 class="js">JavaScript</h1>
+                </span>
+                <span class="boot">
+                <i class="fa-brands fa-bootstrap"></i>
+                <h1 class="bt">Bootstrap</h1>
+                </span>
+                <span class="git">
+                <i class="fa-brands fa-git-alt"></i>
+                <h1 class="gi">Git</h1>
+                </span>
+                <span class="data">
+                <i class="fa-solid fa-database"></i>
+                <h1 class="database">Mysql</h1>
+                </span>
+                <span class="pyth">
+                <i class="fa-brands fa-python"></i>
+                <h1 class="python">Python</h1>
+                </span>
+    </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="proj1">
+    <h1> MY Projects</h1>
+    <div class="projectimg">
+      <span class="ixi">
+        <img src="ixigo.png" alt="img" class="ixigo">
+      </span>
+      <span>
+        <img src="w3nav.png" alt="img" class="w3school">
+      </span>
+    </div>
+    </div>
+  </section>
+
+<!-- contact section -->
+
+ <section id="contact">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-4 p-5 text-white">
+                    <!-- <h1>Hi There</h1>  -->
+                    <h4>
+                       
+                    </h4>
+                </div>
+                <div class="col-md-4 py-3">
+                    <h1>Contact Form</h1>
+                    <div class="form-group">
+                        <h5 for="name">Name</h5>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+                    </div>
+                    <div class="form-group">
+                        <h5 for="email">Email</h5>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+                    </div>
+                    <div class="form-group">
+                        <h5 for="message">Message</h5>
+                        <textarea id="message" rows="3" class="form-control"></textarea>
+                    </div>
+                    <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <footer class="footer1">
+    <div class="socialicons">
+        <a href="https://www.instagram.com/__rahul__ar?igsh=MW9iampndXQ4a255cw==" class="iconbtn"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="iconbtn"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/rahul-a-r-6407b3372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="iconbtn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/qr/T75IZRGFSVWOG1" class="iconbtn"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    <p class="foot">&copy; 2025 RAHUL A R.  All Rights Reserved</p>
+  </footer>
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
